@@ -1,11 +1,11 @@
 var grid = [];
 var rows,cols;
-var cell_size = 30;
+var cell_size = 50;
 var current;
 var stack;
 function setup() {
 
-  var size = min(windowWidth,windowHeight,1000);
+  var size = min(windowWidth,windowHeight,800);
   createCanvas(size,size);
 
   cols = int(width / cell_size);
