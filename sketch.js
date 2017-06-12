@@ -1,5 +1,5 @@
 var grid = [];
-var rows = 20 ,cols = 20;
+var rows = 15 ,cols = 15;
 var cell_size;
 var current;
 var stack;
