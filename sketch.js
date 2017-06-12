@@ -1,14 +1,14 @@
 var grid = [];
-var rows = 10,cols = 10;
+var rows = 20 ,cols = 20;
 var cell_size;
 var current;
 var stack;
 function setup() {
 
-  var size = min(windowWidth,windowHeight);
+  var size = min(windowWidth,windowHeight,500);
   createCanvas(size,size);
 
-  cell_size = floor(size / row);
+  cell_size = floor(size/rows);
   for (var i = 0; i < rows; i++) {
     for (var j = 0; j < cols; j++) {
       var cell = new Cell(i, j);
